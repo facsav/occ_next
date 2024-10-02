@@ -1,0 +1,47 @@
+/* -------------------------------------*/
+/* -                                   -*/
+/* -              FOOTER               -*/
+/* -                                   -*/
+/* ------------------------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+nav{
+    box-shadow: 0px 4px 13.8px 0px rgba(0, 0, 0, 0.25);
+    z-index: 2000;
+    position: fixed !important;
+    width: 100%;
+    height: 5.5rem;
+  }
+
+  .container-fluid{
+    background-color: inherit;
+
+  }
+  
+  .nav-link{
+    font-size: 25px;
+    font-weight: 400;
+    color:var(--darkBlue);
+  }
+  
+  .navbar-nav{
+    height: auto;
+    width: 100%;
+  }
+  
+  .nav-item img{
+    margin-right: 10px;
+  }
+  
+  #modalTamaño{
+    max-width: 80%;
+  
+  }
+
+
+@media (max-width: 991px) {
+  #modalTamaño{
+    max-width: 100%;
+  }  
+}
+  

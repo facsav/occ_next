@@ -1,0 +1,28 @@
+#darkMode {
+  background: transparent url("/togglerNight.svg") no-repeat center;
+  background-size: 30px 30px;
+  width: 20px;
+  height: 20px;
+  filter: grayscale(100%);
+  border: none;
+  border-radius: 50%;
+  transition: background-color 0.3s ease-in-out, filter 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+#darkMode:hover,
+#darkMode:focus {
+  filter: none;
+  cursor: pointer;
+}
+
+#darkMode.clicked {
+  background: transparent url("/togglerNight.svg") no-repeat center;
+  background-size: 20px 20px;
+  width: 20px;
+  height: 20px;
+  filter: grayscale(100%);
+  border: none;
+  border-radius: 50%;
+  transition: background 0.3s ease-in-out, filter 0.3s ease-in-out;
+}

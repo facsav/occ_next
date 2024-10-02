@@ -1,0 +1,97 @@
+/* -------------------------------------*/
+/* -                                   -*/
+/* -            GENERALES              -*/
+/* -                                   -*/
+/* ------------------------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+:root {
+  --dark: #252525;
+  --white: #ffffff;
+  --whiteSombra: #ffffff53;
+  --black: #121212;
+  --violet: #3a2b99;
+  --Footer: url("/images/Footer/FondoFooter.svg");
+  --FooterPhone: url("/images/Footer/FooterPhone.svg");
+
+  --darkBlue: #05445E;
+  --lightBlue: #189AB4;
+  --greenBlue: #75E6DA;
+  --greyBlue: #D4F1F4;
+
+  --clr-neutral-100: hsl(0, 0%, 100%);
+  --clr-primary-100: hsl(205, 15%, 58%);
+  --clr-primary-400: hsl(215, 25%, 27%);
+  --clr-primary-800: hsl(217, 33%, 17%);
+  --clr-primary-900: hsl(218, 33%, 9%);
+
+}
+
+body {
+  background: var(--background-color);
+  color: var(--text-color);
+  transition: background 0.3s ease-in-out, color 0.6s ease-in-out;
+  font-family: inter;
+}
+
+body.light {
+  --background-color: var(--white);
+  --text-color: var(--darkBlue);
+  --homeBanner :var('./images/homeBannerPhone.png');
+  --hoverBotton:  rgba(0, 0, 0, 0.071);
+  --text-color-foot: var(--white);
+
+  --colorNav:var(--white);
+  --footer: var(--violet);
+  --Sombrafooter: var(--black);
+  
+}
+
+body.dark {
+  --background-color: var(--dark);
+  --text-color: var(--white);
+  --homeBanner :var('./images/homeBannerPhoneDark.png');
+  --hoverBotton:  rgba(255, 255, 255, 0.145);
+  --text-color-foot: var(--darkBlue);
+
+  --colorNav:var(--black);
+  --footer: var(var(--black));
+  --Sombrafooter: var(--whiteSombra);
+}
+
+
+/* BOTONES */
+
+.btn-primary{
+  background-color: rgba(255, 255, 255, 0);
+  color: var(--text-color);
+  border-color: var(--text-color);
+}
+
+.btn-primary:hover{
+  background-color: var(--hoverBotton);
+  border-color: var(--text-color);
+  color: var(--text-color);
+}
+
+
+/* Boton WPP */
+
+#message svg{
+  position: absolute;
+  position: fixed;
+  top: 75%;
+  left: 90%;
+}
+
+
+@media (max-width: 991px) {
+  #message svg{
+    position: absolute;
+    position: fixed;
+    top: 80%;
+    left: 70%;
+    z-index: 600 !important;
+  }  
+}

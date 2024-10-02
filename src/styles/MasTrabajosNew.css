@@ -1,0 +1,19 @@
+#masTrabajosNew{
+
+    min-height: 213vh;
+    padding-top: 9.13rem;
+
+}
+
+@media(max-width:991px){
+    #masTrabajosNew h1{
+        font-size: 35px;
+    }
+    #masTrabajosNew h2{
+        font-size: 25px;
+    }
+  }
+
+
+
+

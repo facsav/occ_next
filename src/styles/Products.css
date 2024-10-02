@@ -1,0 +1,33 @@
+#Producto{
+    padding-top: 5rem;
+    height: 200vh;
+}
+
+.productoTag{
+    color: black;
+    background-color: rgb(207, 201, 201);
+    height: auto;
+    width: 400px;
+    justify-content: end;
+    align-items: center;
+    font-size: 10px;
+}
+
+
+.productoTag h5{
+    font-size: 13px;
+}
+
+.productoTag h4{
+    font-size: 15px;
+}
+
+
+.productoTag .productoTag_off{
+    background-color: rgb(172, 18, 18);
+    color: white;
+    padding: 2px;
+    border-radius: 6px;
+    font-size: 8px;
+
+}

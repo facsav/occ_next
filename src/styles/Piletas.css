@@ -1,0 +1,120 @@
+/* -------------------------------------*/
+/* -                                   -*/
+/* -        PILETA , PILETAS ,         -*/
+/* -       REVESTIMIENTOS .JSX         -*/
+/* -                                   -*/
+/* ------------------------------------ */
+
+
+.container-cards{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 0;
+    min-height: 100vh;
+  }
+  .piletas{
+    width: 100%;
+    height: max-content;
+    position: relative;
+    margin: 20px 0;
+    padding: 0;    
+    background: none;
+    box-shadow: 5px 5px 20px rgba(0,0,0);
+    overflow: hidden;
+  }
+  #titulo-pileta hr{
+    margin-top: 0em;
+    color: #05445E;
+  }
+
+  .piletas img{
+    transition: .4s;
+  }
+  
+  .intro{
+    color: white;
+    position: absolute;
+    bottom: 2em;
+    backdrop-filter: blur(1px);
+    width: 100%;
+    padding: 5px;
+    text-align: center; 
+    height: 90px;
+    padding: 20px 5px 10px 5px;
+    transition: .4s ease-in-out;
+  }
+  .piletas span::before{
+    content: '';
+    position: absolute;
+    top: 79px;
+    right: 0;
+    height: 35px;
+    width: 30px;
+    background: linear-gradient( rgb(219, 96, 96),rgb(233, 130, 130) );
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 50% 50%);
+  }
+  .piletas span::after{
+    content: '';
+    position: absolute;
+    top: 79px;
+    right: 30px;
+    height: 35px;
+    width: 30px;
+    background: linear-gradient( rgb(219, 96, 96),rgb(233, 130, 130) );
+    clip-path: polygon(0 0, 0 100%, 50% 50%, 100% 0);
+  }
+
+  .piletas:hover{
+    cursor: pointer;
+  }
+  .piletas:hover .intro{
+    height: 150px;
+    backdrop-filter: blur(5px);
+  }
+  .piletas:hover p{
+    visibility: visible;
+    opacity: 1;
+  }
+  .piletas:hover img{
+    transform: scale(1.1) rotate(1deg);
+  }
+
+
+
+  @media(max-width:1112px){
+    .intro h4{
+        font-size: 24px;
+    }
+    .intro p{
+        font-size: 12px;
+    }
+
+  }
+  @media(max-width:857px){
+    .container-cards{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 0 20px;
+    }
+  }
+  @media(max-width:571px){
+    .container-cards{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        padding: 0 5px;
+    }
+  }
+  
+  @media(max-width:768px){
+    #Portada, #Portada-video{
+        height: auto ;
+        width: 100vw;
+    } 
+}
+
+
+
+
+

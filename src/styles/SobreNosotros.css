@@ -1,0 +1,67 @@
+/* -------------------------------------*/
+/* -                                   -*/
+/* -          SOBRE NOSOTROS           -*/
+/* -                                   -*/
+/* ------------------------------------ */
+
+
+
+
+#sobreNosotros{
+    height: auto;
+    font-size: 20px;
+}
+
+#sobreNosotros .container{
+    padding: 10rem;
+}
+
+#sobreNosotros .row1{
+    height: auto;
+    align-items: center;
+    padding-bottom: 4rem;
+}
+
+#sobreNosotros .imgStart {
+    display: flex;
+    justify-content: start;
+    filter: drop-shadow(20px 23px 34.4px rgba(0, 0, 0, 0.25));
+
+}
+#sobreNosotros .imgEnd {
+    display: flex;
+    justify-content: end;
+    filter: drop-shadow(-20px 23px 34.4px rgba(0, 0, 0, 0.25));
+
+}
+
+
+@media (max-width: 1399px) {
+    #sobreNosotros .container{
+        padding: 2rem;
+    }
+}
+
+
+@media (max-width: 991px) {
+    #sobreNosotros .imgStart {
+        justify-content: center;
+        padding-bottom: 4rem;
+    
+    }
+    #sobreNosotros .imgEnd {
+        justify-content: center;
+        padding-bottom: 4rem;
+    
+    }
+  }
+@media (max-width: 580px) {
+    #sobreNosotros .img400 img {
+        height: 350px;
+    }
+    #sobreNosotros .img300 img {
+        height: 200px;
+    }
+
+  }
+

@@ -1,0 +1,79 @@
+/* -------------------------------------*/
+/* -                                   -*/
+/* -            CARROUSEL              -*/
+/* -                                   -*/
+/* ------------------------------------ */
+
+#carrousel-home{
+    margin-top: 1em;
+    position: relative;
+}
+
+.scroller {
+    width: 100%;
+}
+  
+.scroller__inner {
+    padding-block: 0rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    height: 300px;
+}
+
+.scroller[data-animated="true"] {
+    overflow: hidden;
+    -webkit-mask: linear-gradient(
+    90deg,
+    transparent,
+    white 10%,
+    white 90%,
+    transparent
+);
+    mask: linear-gradient(90deg, transparent, white 10%, white 90%, transparent);
+}
+
+.scroller[data-animated="true"] .scroller__inner {
+    width: max-content;
+    flex-wrap: nowrap;
+    animation: scroll var(--_animation-duration, 40s)
+    var(--_animation-direction, forwards) linear infinite;
+}
+
+.scroller[data-direction="right"] {
+    --_animation-direction: reverse;
+}
+
+.scroller[data-direction="left"] {
+    --_animation-direction: forwards;
+}
+
+.scroller[data-speed="fast"] {
+    --_animation-duration: 30s;
+}
+
+.scroller[data-speed="slow"] {
+    --_animation-duration: 75s;
+}
+  
+@keyframes scroll {
+    to {
+        transform: translate(calc(-50% - 0.5rem));
+    }
+}
+  
+@media(max-width:482px){
+    #carrousel-home{
+        margin-top: 5em;
+    }
+}
+@media(max-width:399px){
+    #carrousel-home{
+        margin-top: 8em;
+    }
+}
+@media(max-width:330px){
+    #carrousel-home{
+        margin-top: 10em;
+    }
+}
