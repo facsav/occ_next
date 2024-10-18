@@ -6,7 +6,7 @@ import Navbar from '@/components/Navbar/Navbar';
 import { Footer } from '@/components/Footer';
 import BootstrapClient from '../components/BoostrapClient'
 import 'bootstrap/dist/css/bootstrap.min.css'; 
-import style from '../styles/app.css'
+import style from '../styles/App.css';
 
 
 

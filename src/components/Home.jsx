@@ -1,6 +1,6 @@
 // src/components/Home.jsx
 "use client";
-import { Carrusel } from './Carrusel';
+import  Carrusel  from './Carrusel';
 import { ContactUs } from './ContactUs';
 import React, { useState, useEffect, useRef } from 'react';
 import style from '../styles/Home.css'; 

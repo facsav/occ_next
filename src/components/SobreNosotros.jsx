@@ -1,6 +1,6 @@
 "use client";
 
-import styleSobreNos from '../styles/sobreNosotros.css'
+import styleSobreNos from '../styles/SobreNosotros.css'
 import { useEffect } from "react";
 import assets from '../app/assets';
 import style from '../styles/Home.css'; 
