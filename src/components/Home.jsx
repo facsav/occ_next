@@ -1,9 +1,9 @@
 // src/components/Home.jsx
 "use client";
-import  Carrusel  from './Carrusel';
+import  Carrusel  from './carrusel';
 import { ContactUs } from './ContactUs';
 import React, { useState, useEffect, useRef } from 'react';
-import style from '../styles/Home.css'; 
+import '../styles/Home.css'; 
 import Head from 'next/head';
 import Link from 'next/link';
 import {Helmet} from 'react-helmet';
