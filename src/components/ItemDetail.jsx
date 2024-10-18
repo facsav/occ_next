@@ -64,39 +64,7 @@ export function ItemDetail({ titulo, detalleFinal, nivelacion, opcionesPuenteAdh
 
     
   }, []); 
-  //--------------------------------------------------- Video/Imagen --------------------------------------- 
-  useEffect(() => {
-    const handleImageLoad = () => {
-      const portadaImg = document.getElementById('Portada');
-  
-      if (portadaImg) {
-        const extensionesVideo = ['.mp4', '.webm', '.ogg'];
-        const url = portadaImg.src.toLowerCase();
-  
-        if (extensionesVideo.some(ext => url.endsWith(ext))) {
-          setTipoContenido('video');
-          console.log('Es video');
-        } else {
-          setTipoContenido('imagen');
-          console.log('Es imagen');
-        }
-  
-        // Resto de tu lógica de ajuste de altura y ancho
-      }
-    };
-  
-    const portadaImg = document.getElementById('Portada');
-  
-    if (portadaImg.complete) {
-      handleImageLoad();
-    } else {
-      portadaImg.addEventListener('load', handleImageLoad);
-    }
-  
-    return () => {
-      portadaImg.removeEventListener('load', handleImageLoad);
-    };
-  }, [imgPortada]);
+
   //--------------------------------------------------- Logica scroll ----------------------------------
   useEffect(() => {
     const portadaImg = document.getElementById('Portada');

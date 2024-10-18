@@ -3,13 +3,14 @@
 import React from 'react';
 import styles from '../../styles/Navbar.css';
 
+
 const NavItemWithImage = ({ imageSrc, alt, text, showImageOnMobile, ruta, type, databs, dataTarget, dropdownItems, extraClass }) => {
 
   return (
     <li className={`nav-item ${dropdownItems ? 'dropdown' : ''} ${extraClass ? extraClass : ''}`}>
       {dropdownItems ? (
         <>
-          <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a id='jeee' className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             {text}
           </a>
           <ul className="dropdown-menu">
