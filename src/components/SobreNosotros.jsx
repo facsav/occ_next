@@ -3,7 +3,7 @@
 import styleSobreNos from '../styles/sobreNosotros.css'
 import { useEffect } from "react";
 import assets from '../app/assets';
-import '../styles/Home.css'; 
+import style from '../styles/Home.css'; 
 import Head from 'next/head';
 
 

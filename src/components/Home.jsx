@@ -3,7 +3,7 @@
 import { Carrusel } from './Carrusel';
 import { ContactUs } from './ContactUs';
 import React, { useState, useEffect, useRef } from 'react';
-import '../styles/Home.css'; 
+import style from '../styles/Home.css'; 
 import Head from 'next/head';
 import Link from 'next/link';
 import {Helmet} from 'react-helmet';
