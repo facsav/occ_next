@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 
-export default function Reactselacome({video}) { // Cambia export function Videos() por export default function Videos()
+const Reactselacome = ({video}) => { // Cambia export function Videos() por export default function Videos()
   const videoRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [isMuted, setIsMuted] = useState(false);
@@ -43,3 +43,5 @@ export default function Reactselacome({video}) { // Cambia export function Video
     </div>
   );
 };
+
+export default Reactselacome;

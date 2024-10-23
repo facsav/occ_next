@@ -1,5 +1,5 @@
 "use client"
-import { ItemDetailCarrousel } from "./ItemDetailCarrousel";
+import ItemDetailCarrousel from "./ItemDetailCarrousel";
 import React, { useEffect, useState } from 'react';
 import ReproductorVideos from "./reactselacome";
 import itemDetail from "../styles/ItemDetail.css"
@@ -21,7 +21,7 @@ const Icono = ({ imagen, nombre, onClick }) => {
   );
 };
 
-export function ItemDetail({ titulo, detalleFinal, nivelacion, opcionesPuenteAdherencia, higienizacion, opcionesPuenteAdherenciaLink, imgPortada, caracteristicas, listaDeAssets, cantImgCarrusel, pegamentos, pegamentosLink, preparacionSuperficie, puenteAdherencia, preparacionMaterial, juntas}) {
+ const ItemDetail = ({ titulo, detalleFinal, nivelacion, opcionesPuenteAdherencia, higienizacion, opcionesPuenteAdherenciaLink, imgPortada, caracteristicas, listaDeAssets, cantImgCarrusel, pegamentos, pegamentosLink, preparacionSuperficie, puenteAdherencia, preparacionMaterial, juntas}) => {
   const [clickedIcons, setClickedIcons] = useState([]);
   const [portadaHeight, setPortadaHeight] = useState(0);
   const [tipoContenido, setTipoContenido] = useState('imagen');

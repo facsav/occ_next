@@ -1,7 +1,7 @@
 // src/components/Home.jsx
 "use client";
 import  Carrusel  from './carrusel';
-import { ContactUs } from './ContactUs';
+import ContactUs from './ContactUs';
 import React, { useState, useEffect, useRef } from 'react';
 import '../styles/Home.css'; 
 import Head from 'next/head';
@@ -9,7 +9,7 @@ import Link from 'next/link';
 import {Helmet} from 'react-helmet';
 
 
-export function Home (){
+const Home = () => {
   const [backgroundPosition, setBackgroundPosition] = useState(0);
    const [showFirstImage, setShowFirstImage] = useState(true);
 
@@ -282,3 +282,5 @@ export function Home (){
   </> 
   )
 }
+
+export default Home;

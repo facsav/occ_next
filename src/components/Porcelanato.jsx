@@ -1,9 +1,9 @@
 "Use client"
-import { ItemDetail } from "./ItemDetail";
+import ItemDetail from "./ItemDetail";
 import data from "../utils/pools";
 import Head from "next/head";
 
-export function Porcelanato(){
+const Porcelanato = () =>{
     return(
         <>
         <ItemDetail 
@@ -31,3 +31,5 @@ export function Porcelanato(){
         </>
     )
 }
+
+export default Porcelanato;

@@ -1,10 +1,11 @@
-import { ItemDetail } from "./ItemDetail";
+import ItemDetail from "./ItemDetail";
 import data from "../utils/pools";
 import Head from "next/head";
 
-export function Marmol(){
+const Marmol = () =>{
     return(
-        <><ItemDetail 
+        <>
+        <ItemDetail 
         titulo={data.pools[2].name} 
         imgPortada={data.pools[2].portada}
         listaDeAssets={data.pools[2].demas_fotos}
@@ -31,3 +32,5 @@ export function Marmol(){
          
     )
 }
+
+export default Marmol;  

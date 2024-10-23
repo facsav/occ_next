@@ -4,7 +4,7 @@ import data from "../utils/pools";
 import CardsStyle from '../styles/Piletas.css';
 import Head from "next/head";
 
-export function ProcesoInstalacion(){
+const ProcesoInstalacion = () => {
     return(
         
         <section style={{paddingTop:'6rem'}} >
@@ -40,3 +40,5 @@ export function ProcesoInstalacion(){
 
     )
 }
+
+export default ProcesoInstalacion;

@@ -9,7 +9,7 @@ import Head from 'next/head';
 import { Truculenta } from 'next/font/google';
 
 
-export function MasTrabajosNew() {
+const MasTrabajosNew = () => {
 
 
     return (
@@ -109,5 +109,6 @@ export function MasTrabajosNew() {
 
 }
 
+export default MasTrabajosNew;  
 
 

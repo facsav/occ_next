@@ -1,8 +1,8 @@
-import { ItemDetail } from "./ItemDetail";
+import ItemDetail from "./ItemDetail";
 import data from "../utils/pools";
 import Head from "next/head";
 
-export function Piscinas(){
+const Piscinas = () =>{
     return(
         <>
         <ItemDetail 
@@ -30,3 +30,5 @@ export function Piscinas(){
     </>
     )
 }
+
+export default Piscinas;

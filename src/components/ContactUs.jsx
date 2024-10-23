@@ -10,7 +10,7 @@ if (DarkMode){
 }
 
 
-export const ContactUs = () => {
+const ContactUs = () => {
   // Seguimiento publicidad
   useEffect(() => {
     // Agrega aquí el código del script del Google Tag Manager
@@ -253,3 +253,5 @@ export const ContactUs = () => {
       </div>
     );
   };
+
+  export default ContactUs;

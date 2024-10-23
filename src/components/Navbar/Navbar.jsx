@@ -4,7 +4,7 @@ import React from 'react';
 import NavItemWithImage from './NavItemWithImage.jsx';
 import DarkMode from '../DarkMode';
 // import assets from '../../assets/assets'; 
-import { ContactUs } from '../ContactUs.jsx';
+import ContactUs from '../ContactUs.jsx';
 import styles from '../../styles/Navbar.css';
 import styles2 from '../../styles/App.css';
 import sobre_nosotros from '@/app/SobreNosotros/page.js';

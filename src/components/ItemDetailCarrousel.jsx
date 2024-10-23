@@ -1,6 +1,6 @@
 "Use client"
 
-export function ItemDetailCarrousel ({array, cantImgCarrusel}){
+const ItemDetailCarrousel = ({array, cantImgCarrusel}) =>{
     function cambiarPortada(nuevaImagen) {
         // Obtén el elemento de la portada
         var portadaImg = document.getElementById('Portada');
@@ -11,8 +11,10 @@ export function ItemDetailCarrousel ({array, cantImgCarrusel}){
     return(
       <div className="lista-img" style={{ gridTemplateColumns: `repeat(${cantImgCarrusel}, 1fr)` }}>
         {array.map((asset, index) =>(
-          <img src={asset} alt="" className="imagen-item" onClick={() => cambiarPortada(asset)}/>
+          <img key={index} src={asset} alt="" className="imagen-item" onClick={() => cambiarPortada(asset)}/>
         ))}
       </div>
     )
 }
+
+export default ItemDetailCarrousel;

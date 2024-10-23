@@ -2,12 +2,11 @@
 
 import '../styles/SobreNosotros.css'
 import { useEffect } from "react";
-import assets from '../app/assets';
 import '../styles/Home.css'; 
 import Head from 'next/head';
 
 
-export function SobreNosotros (){
+const SobreNosotros = () =>{
 // Seguimiento publicidad
 useEffect(() => {
     // Agrega aquí el código del script del Google Tag Manager
@@ -198,8 +197,8 @@ useEffect(() => {
                                 08’ - 10’
                             </h3>
                             <p>
-                                Al regresar a nuestra amada <b>Argentina</b> participamos en la construcción de <b>Madero Center</b> o "La Rosadita", este sobrenombre sería conocido luego del escándalo de la ruta del dinero K, un año más tarde en la construcción de <b>las torres del Yacht</b>, dejando así una zona de la capital bonaerense finalizada. <br />
-                                No solo nos dedicamos a la construcción de proyecto masivos, también realizamos trabajos para hogares en countries como <b>Boca Raton, San Diego,</b> entre otros.
+                                Al regresar a nuestra amada <b>Argentina</b> participamos en la construcción de <b>Madero Center</b> o La Rosadita, este sobrenombre sería conocido luego del escándalo de la ruta del dinero K, un año más tarde en la construcción de <b>las torres del Yacht</b>, dejando así una zona de la capital bonaerense finalizada. <br />
+                                No solo nos dedicamos a la construcción de proyectos masivos, también realizamos trabajos para hogares en countries como <b>Boca Raton, San Diego,</b> entre otros.
                             </p>
 
                         </div>
@@ -308,3 +307,5 @@ useEffect(() => {
 
 
 }
+
+export default SobreNosotros;

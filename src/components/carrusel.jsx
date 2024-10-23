@@ -6,7 +6,7 @@ import carrousel from '../styles/Carrousel.css'
 
 
 
-export const Carrusel = () => {
+const Carrusel = () => {
   //flechitas
     const [direction, setDirection] = useState('left'); 
     const toggleDirection = () => {
@@ -68,3 +68,5 @@ export const Carrusel = () => {
   </>
     );
   };
+
+  export default Carrusel;

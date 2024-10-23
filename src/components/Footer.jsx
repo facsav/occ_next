@@ -1,11 +1,11 @@
 "Use cliente"
 // import assets from "../assets/assets";
 // import '../styles/App.css';
-import { ContactUs } from "./ContactUs";
+import ContactUs from './ContactUs'
 import '../styles/Footer.css'
 
 
-export function Footer(){
+const Footer = () =>{
     return(
         <section id="footer" >
             {/* pc */}
@@ -157,3 +157,5 @@ export function Footer(){
         
     )
 }
+
+export default Footer;
