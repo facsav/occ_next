@@ -32,19 +32,19 @@ const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav d-flex justify-content-md-end align-items-md-center">
-              <NavItemWithImage imageSrc={"/images/navbar/casa.svg"} alt="Casa" text="Inicio" showImageOnMobile={true} ruta='/' />
+              <NavItemWithImage imageSrc={"/images/Navbar/casa.svg"} alt="Casa" text="Inicio" showImageOnMobile={true} ruta='/' />
               <NavItemWithImage
-                imageSrc={"/images/navbar/star.svg"}
+                imageSrc={"/images/Navbar/star.svg"}
                 alt="Estrella"
                 text="Trabajos"
                 showImageOnMobile={true}
                 ruta='/Trabajos'
               />
-              <NavItemWithImage imageSrc={"/images/navbar/bolso.svg"} alt="Info" text="Colocación" showImageOnMobile={true} ruta='/Colocacion' />
-              <NavItemWithImage imageSrc={"/images/navbar/info.svg"} alt="Info" text="Sobre nosotros" showImageOnMobile={true} ruta="/SobreNosotros"/>
+              <NavItemWithImage imageSrc={"/images/Navbar/bolso.svg"} alt="Info" text="Colocación" showImageOnMobile={true} ruta='/Colocacion' />
+              <NavItemWithImage imageSrc={"/images/Navbar/info.svg"} alt="Info" text="Sobre nosotros" showImageOnMobile={true} ruta="/SobreNosotros"/>
 
               <NavItemWithImage
-                imageSrc={"/images/navbar/telefono.svg"}
+                imageSrc={"/images/Navbar/telefono.svg"}
                 alt="Teléfono"
                 text="Contacto"
                 showImageOnMobile={true}
