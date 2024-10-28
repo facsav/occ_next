@@ -2,16 +2,11 @@
 import CardAnimada from "./CardAnimada";
 import data from "../utils/pools";
 import CardsStyle from '../styles/Piletas.css';
-import Head from "next/head";
 
 const ProcesoInstalacion = () => {
     return(
         
         <section style={{paddingTop:'6rem'}} >
-            <Head>
-                <title>Guía de Instalación de Revestimientos por OCC: Expertos en Calidad</title>
-                <meta name="description" content="Aprende cómo OCC instala revestimientos de cerámicos, porcelanato, mármol y venecitas. Descubre nuestros métodos detallados y asegura resultados duraderos y de alta calidad." />
-            </Head>
             <div className="container">
 
                 <h1 style={{fontSize:'42px'}}>Colocación de revestimientos</h1>

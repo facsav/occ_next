@@ -5,7 +5,6 @@ import CardsStyle from '../styles/Piletas.css';
 
 import Modal from './Modal';
 import data from "../utils/masTrabajos";
-import Head from 'next/head';
 import { Truculenta } from 'next/font/google';
 
 
@@ -14,10 +13,6 @@ const MasTrabajosNew = () => {
 
     return (
         <section id="masTrabajosNew">
-            <Head>
-                <title>Trabajos Realizados por OCC: Expertos en Revestimientos</title>
-                <meta name="description" content="Descubre los proyectos de OCC en cerámicos, porcelanato, mármol y venecitas. Inspírate con nuestros trabajos de revestimiento de piletas, baños y más." />
-            </Head>
             <div className="container">
 
                 <div className="row">

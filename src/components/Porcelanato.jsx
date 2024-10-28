@@ -1,7 +1,6 @@
 "Use client"
 import ItemDetail from "./ItemDetail";
 import data from "../utils/pools";
-import Head from "next/head";
 
 const Porcelanato = () =>{
     return(
@@ -24,10 +23,6 @@ const Porcelanato = () =>{
         higienizacion={data.pools[1].higienizacion}
         nivelacion={data.pools[1].nivelacion}
          />
-         <Head>
-            <title>Cómo Instalar Porcelanato y Cerámicas - Guía de OCC</title>
-            <meta name="description" content="Descubre cómo OCC instala revestimientos de porcelanato y cerámica con precisión y calidad. Sigue nuestra guía para lograr un acabado duradero y estético en cualquier superficie." />
-        </Head>
         </>
     )
 }

@@ -1,6 +1,5 @@
 import ItemDetail from "./ItemDetail";
 import data from "../utils/pools";
-import Head from "next/head";
 
 const Piscinas = () =>{
     return(
@@ -23,10 +22,6 @@ const Piscinas = () =>{
         higienizacion={data.pools[0].higienizacion}
         nivelacion={data.pools[0].nivelacion}
          />
-         <Head>
-            <title>Cómo Instalar Venecitas en Piscinas - Guía de OCC</title>
-            <meta name="description" content="Aprende cómo OCC instala venecitas en piscinas con nuestra guía detallada. Descubre técnicas profesionales para un acabado perfecto y duradero." />
-        </Head>
     </>
     )
 }

@@ -23,10 +23,6 @@ const Marmol = () =>{
         higienizacion={data.pools[2].higienizacion}
         nivelacion={data.pools[2].nivelacion}
          />
-         <Head>
-                <title>Cómo Instalar Revestimientos de Mármol - Guía de OCC</title>
-                <meta name="description" content="Aprende cómo OCC instala revestimientos de mármol con nuestra guía detallada. Descubre los métodos y técnicas para asegurar resultados duraderos y de alta calidad." />
-        </Head>
          </>
         
          
