@@ -1,4 +1,4 @@
-"Use client"
+"use client";
 
 import MasTrabajosStyle from '../styles/MasTrabajosNew.css';
 import CardsStyle from '../styles/Piletas.css';
@@ -6,6 +6,7 @@ import CardsStyle from '../styles/Piletas.css';
 import Modal from './Modal';
 import data from "../utils/masTrabajos";
 import { Truculenta } from 'next/font/google';
+import ReproductorVideos from './reactselacome';
 
 
 const MasTrabajosNew = () => {
@@ -14,10 +15,62 @@ const MasTrabajosNew = () => {
     return (
         <section id="masTrabajosNew">
             <div className="container">
-
+            <div className="row justify-content-center">
+                    <h1>Revestimientos Instalados</h1>
+                    <hr />
+                    <div className="video-grid">
+                        <div className='cont-rep'>
+                            <div className="video">
+                            <ReproductorVideos video={'/videos/Baños.webm'} id="RepVideo" />
+                            </div>
+                            <div className="descripcion-video">
+                                <h4>Baño en Porcelanato:</h4>
+                                <p>
+                                    - Este baño de 2 cuerpos, fue revestido con distintos estilos
+                                    de porcelanato para pisos, paredes y muebles. <br />
+                                    - La ducha y algunos detalles fueron revestidos en mármol (ingletado en zonas con porcelanato). <br />
+                                    - Si queres saber más sobre nuestros métodos de instalación de mármol o porcelanato 
+                                    visita <a href="/colocacion-de-revestimientos"> nuestras guías de instalación.</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div className='cont-rep'>
+                            <div className="video">
+                            <ReproductorVideos video={'/videos/Fuente.webm'} id="RepVideo" />
+                            </div>
+                            <div className="descripcion-video">
+                                <h4>Fuente:</h4>
+                                <p>
+                                    - Uno de nuestros proyectos mas impactantes, una fuente de 4000 pies cuadrados. <br />
+                                    - Aunque practicamente en su totatildad esta inmensa fuente esta revestida con venecitas biseladas,
+                                    cuenta con un puente (con su playon) de porcelanato y una isla climatizada (su instalción electrica es hecha por OCC) revestida en mármol
+                                    y porcelanato mediante ingletado, cuidando asi la fragilidad del material, maximazando su resistencia y duración. <br />
+                                    - Si queres saber más sobre nuestros métodos de instalación de mármol, porcelanato o venecitas
+                                     visita <a href="/colocacion-de-revestimientos"> nuestras guías de instalación.</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div className='cont-rep'>
+                            <div className="video">
+                            <ReproductorVideos video={'/videos/Baño marmol.webm'} id="RepVideo" />
+                            </div>
+                            <div className="descripcion-video">
+                                <h4>Baño mármoleado:</h4>
+                                <p>
+                                    - Esta inmensidad que más que un baño es un espacio más del hogar, es sin duda alguna
+                                    nuestro proyecto más delicado. <br />
+                                    - Cada mm2 de este proyecto, pisos, paredes, ducha, bajo pileta han sido revestidos utilizando este 
+                                    preciso mármol, que agrega elegancia y lujuria llevando el espacio al siguiente nivel. <br />
+                                    - Un proyecto tan ambicioso necesitaba de mano sobrecalificada para el trabajo, que pudiera asegurar el mejor y má
+                                    preciso acabado; y en OCC estabamos listos para ello. <br />
+                                    - Si queres conocer más sobre como realizamos este tipo de instalaciones visita nuestra <a href="/colocacion-de-revestimientos/Mármol">guía de instalación de mármol.</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div className="row">
 
-                    <h1>Revestimientos</h1>
                     
                     <hr />
 

@@ -1,6 +1,5 @@
 // src/app/layout.js
 
-"use client"
 import Navbar from '@/components/Navbar/Navbar';
 import Footer from '@/components/Footer';
 import BootstrapClient from '@/components/BoostrapClient';

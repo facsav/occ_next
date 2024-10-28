@@ -1,6 +1,10 @@
-import React, { useRef, useState } from 'react';
+"use client";
 
-const Reactselacome = ({video}) => { // Cambia export function Videos() por export default function Videos()
+
+import React, { useRef, useState } from 'react';
+import './../styles/ReproductorVideos.css';
+
+export default function Reactselacome({video}) {
   const videoRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [isMuted, setIsMuted] = useState(false);
@@ -28,7 +32,7 @@ const Reactselacome = ({video}) => { // Cambia export function Videos() por expo
         onClick={togglePlayPause}
        className="portada-video"
       >
-        <source src={video} type="video/mp4" />
+        <source src={video} type="video/webm" />
         Your browser does not support the video tag.
       </video>
       <button
@@ -43,5 +47,3 @@ const Reactselacome = ({video}) => { // Cambia export function Videos() por expo
     </div>
   );
 };
-
-export default Reactselacome;
