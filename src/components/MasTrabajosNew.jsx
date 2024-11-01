@@ -21,9 +21,15 @@ const MasTrabajosNew = () => {
                     <div className="video-grid">
                         <div className='cont-rep'>
                             <div className="video">
-                            <ReproductorVideos video={'/videos/Baños.webm'} id="RepVideo" />
+                                {/* <ReproductorVideos video={'/videos/Baños.webm'} id="RepVideo" /> */}
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/m6jbZdMSp0Y?si=fjW9PHhyfybL22G8&controls=0&modestbranding=1&mute=1&" 
+                                title="YouTube video player" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                referrerpolicy="strict-origin-when-cross-origin" 
+                                allowfullscreen></iframe>                            
                             </div>
-                            <div className="descripcion-video">
+                            {/* <div className="descripcion-video">
                                 <h4>Baño en Porcelanato:</h4>
                                 <p>
                                     - Este baño de 2 cuerpos, fue revestido con distintos estilos
@@ -32,13 +38,19 @@ const MasTrabajosNew = () => {
                                     - Si queres saber más sobre nuestros métodos de instalación de mármol o porcelanato 
                                     visita <a href="/colocacion-de-revestimientos"> nuestras guías de instalación.</a>
                                 </p>
-                            </div>
+                            </div> */}
                         </div>
                         <div className='cont-rep'>
                             <div className="video">
-                            <ReproductorVideos video={'/videos/Fuente.webm'} id="RepVideo" />
+                                {/* <ReproductorVideos video={'/videos/Fuente.webm'} id="RepVideo" /> */}
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/BnsWLkjJ3E4?si=CXpkSrZxuNuY9gYy&controls=0&modestbranding=1" 
+                                title="YouTube video player" f
+                                rameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                referrerpolicy="strict-origin-when-cross-origin" 
+                                allowfullscreen></iframe>
                             </div>
-                            <div className="descripcion-video">
+                            {/* <div className="descripcion-video">
                                 <h4>Fuente:</h4>
                                 <p>
                                     - Uno de nuestros proyectos mas impactantes, una fuente de 4000 pies cuadrados. <br />
@@ -48,13 +60,19 @@ const MasTrabajosNew = () => {
                                     - Si queres saber más sobre nuestros métodos de instalación de mármol, porcelanato o venecitas
                                      visita <a href="/colocacion-de-revestimientos"> nuestras guías de instalación.</a>
                                 </p>
-                            </div>
+                            </div> */}
                         </div>
                         <div className='cont-rep'>
                             <div className="video">
-                            <ReproductorVideos video={'/videos/Baño marmol.webm'} id="RepVideo" />
+                                {/* <ReproductorVideos video={'/videos/Baño marmol.webm'} id="RepVideo" /> */}
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/-EvS0S0rIlQ?si=KkRk5nF2WrlSqkjx&controls=0&modestbranding=1"
+                                title="YouTube video player" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                referrerpolicy="strict-origin-when-cross-origin" 
+                                allowfullscreen></iframe>
                             </div>
-                            <div className="descripcion-video">
+                            {/* <div className="descripcion-video">
                                 <h4>Baño mármoleado:</h4>
                                 <p>
                                     - Esta inmensidad que más que un baño es un espacio más del hogar, es sin duda alguna
@@ -65,7 +83,30 @@ const MasTrabajosNew = () => {
                                     preciso acabado; y en OCC estabamos listos para ello. <br />
                                     - Si queres conocer más sobre como realizamos este tipo de instalaciones visita nuestra <a href="/colocacion-de-revestimientos/Mármol">guía de instalación de mármol.</a>
                                 </p>
+                            </div> */}
+                        </div>
+                        <div className='cont-rep'>
+                            <div className="video">
+                                {/* <ReproductorVideos video={'/videos/Baño marmol.webm'} id="RepVideo" /> */}
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/kBdAWMB8Too?si=6Y0wHfjM4wkd3Yrs&controls=0&modestbranding=1" 
+                                title="YouTube video player" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                referrerpolicy="strict-origin-when-cross-origin" 
+                                allowfullscreen></iframe>
                             </div>
+                            {/* <div className="descripcion-video">
+                                <h4>Baño mármoleado:</h4>
+                                <p>
+                                    - Esta inmensidad que más que un baño es un espacio más del hogar, es sin duda alguna
+                                    nuestro proyecto más delicado. <br />
+                                    - Cada mm2 de este proyecto, pisos, paredes, ducha, bajo pileta han sido revestidos utilizando este 
+                                    preciso mármol, que agrega elegancia y lujuria llevando el espacio al siguiente nivel. <br />
+                                    - Un proyecto tan ambicioso necesitaba de mano sobrecalificada para el trabajo, que pudiera asegurar el mejor y má
+                                    preciso acabado; y en OCC estabamos listos para ello. <br />
+                                    - Si queres conocer más sobre como realizamos este tipo de instalaciones visita nuestra <a href="/colocacion-de-revestimientos/Mármol">guía de instalación de mármol.</a>
+                                </p>
+                            </div> */}
                         </div>
                     </div>
                 </div>
