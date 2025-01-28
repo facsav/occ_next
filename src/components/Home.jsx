@@ -87,7 +87,7 @@ const Home = () => {
 }, []);
   return(
   <>
-  <Helmet>
+  <Head>
     <meta
     name="description"
     content="OCC Revestimientos: Expertos en instalación de mármol, porcelanato y venecitas. Calidad y precisión en cada proyecto. Más de 13 años de experiencia transformando espacios con acabados duraderos y estéticos."
@@ -100,7 +100,7 @@ const Home = () => {
           'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
           })(window,document,'script','dataLayer','GTM-52HZS7TJ');`,
         }} />
-  </Helmet>
+  </Head>
       <div style={{height:'8vh'}} ></div>
       <section id="home" style={sectionStyle}>
         <div className="container h-100">
