@@ -23,6 +23,8 @@ export default function Layout({ children }) {
         />
         <link rel="icon" href="/iconBlue.svg" />
       <body className={inter.className}>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-52HZS7TJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <Navbar />
         {children}
         <Footer />

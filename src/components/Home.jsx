@@ -101,8 +101,6 @@ const Home = () => {
           })(window,document,'script','dataLayer','GTM-52HZS7TJ');`,
         }} />
   </Helmet>
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-52HZS7TJ"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div style={{height:'8vh'}} ></div>
       <section id="home" style={sectionStyle}>
         <div className="container h-100">
