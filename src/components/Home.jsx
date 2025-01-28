@@ -98,7 +98,7 @@ const Home = () => {
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-HEL6YQPZP8"></script>
         <script>
           window.dataLayer = window.dataLayer || [];
-          función gtag(){dataLayer.push(argumentos)}
+          función gtag(){dataLayer.push(argumentos);}
           gtag('js', nuevo Date());
 
           gtag('config', 'G-HEL6YQPZP8');
