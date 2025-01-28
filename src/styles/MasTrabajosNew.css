@@ -126,7 +126,7 @@
   
   
   
-  @media (max-width: 500px) {
+  /* @media (max-width: 500px) {
     .video-grid {
         display: block;
         overflow-x: scroll;
@@ -145,7 +145,7 @@
         display: none;
       }
   }
-  
+   */
   
   /* Para pantallas medianas, ajusta a 2 columnas */
   

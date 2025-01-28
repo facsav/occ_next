@@ -94,6 +94,15 @@ const Home = () => {
     />
     <title>Instalaciones OCC </title>
   </Helmet>
+   {/* Google tag (gtag.js)  */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-HEL6YQPZP8"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          función gtag(){dataLayer.push(argumentos)}
+          gtag('js', nuevo Date());
+
+          gtag('config', 'G-HEL6YQPZP8');
+        </script>
       <div style={{height:'8vh'}} ></div>
       <section id="home" style={sectionStyle}>
         <div className="container h-100">
